@@ -1,6 +1,6 @@
 baseURL: https://burna680.github.io
 
-languageCode: bn
+languageCode: es
 title: "Lucas Burna's portfolio"
 
 # Use Hugo modules to add theme
@@ -25,11 +25,16 @@ languages:
     languageName: English
     title: "Lucas Burna"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  es:
+    languageCode: es
+    languageName: Español
+    title: "Lucas Burna"
     weight: 2
+  fr:
+    languageCode: fr
+    languageName: Français
+    title: "Lucas Burna"
+    weight: 3
 # default language for the content
 defaultContentLanguage: en
 
