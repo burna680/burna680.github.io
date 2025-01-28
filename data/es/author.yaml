@@ -1,0 +1,18 @@
+# some information about you
+name: "Lucas Burna"
+nickname: "Lucas"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hola! Soy "
+image: "images/author/avatar.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "burna680@gmail.com"
+  # phone: "+0123456789"
+  github: burna680
+  linkedin: lucas-burna
+  # researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - Soy Machine Learning Engineer
+  - Me encanta la IA

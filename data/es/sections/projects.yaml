@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Proyectos
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Todo
+  filter: "all"
+- name: NLP
+  filter: "nlp"
+- name: Machine Learning
+  filter: "machine-learning"
+- name: MLOps
+  filter: "mlops"
+
+# your projects
+projects:
+- name: Predictor de seguridad vehicular
+  logo: /images/sections/projects/mlflow.jpeg
+  role: Creator
+  timeline: "Jun 2024 - Jul 2024"
+  repo: https://github.com/burna680/MLFlow_demo # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Este proyecto implementa una pipeline de entrenamiento para un modelo de machine learning de scikit-learn utilizando Python.
+  tags: ["machine-learning", "mlops"]
+
+- name: LTSM stock forecasting
+  logo: /images/sections/projects/stocks.png
+  role: Creator
+  timeline: "Jul 2024 - Aug 2024"
+  repo: https://burna680ltsmforecasting.streamlit.app/
+  #url: ""
+  summary: Una implementación completa y personalizable de pronóstico de acciones utilizando modelos LSTM.
+  tags: ["forecasting", "machine-learning"]
+
+# - name: A sample academic paper
+#   role: Team Lead
+#   timeline: "Jan 2017 - Nov 2017"
+#   url: "https://www.example.com"
+#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+#   tags: ["academic","iot"]
+
+# - name: Nocode
+#   logo: /images/sections/projects/no-code.png
+#   role: Nothing
+#   timeline: "Oct 2019 - Dec 2019"
+#   repo: https://github.com/kelseyhightower/nocode
+#   #url: ""
+#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#   tags: ["hobby", "fun"]
+
+- name: Chatbot
+  logo: /images/sections/projects/chatbot.png
+  role: Owner
+  timeline: "Aug 2024 - Sept 2024"
+  # repo: https://github.com/hossainemruz/toha
+  summary: Un chatbot conversacional utilizando Meta-Llama-3-8B como modelo base, integrado con Langchain y LlamaIndex para mejorar la recuperación de datos e interacción.
+  tags: ["nlp","chatbot"]
